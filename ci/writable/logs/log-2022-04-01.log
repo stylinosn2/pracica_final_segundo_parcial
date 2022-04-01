@@ -1,0 +1,162 @@
+ERROR - 2022-04-01 00:16:58 --> Table 'tiendita.usuarios' doesn't exist
+CRITICAL - 2022-04-01 00:45:12 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 62
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(62): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:06:16 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 54
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(54): view('vIngresado', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:17:08 --> Too few arguments to function App\Controllers\Home::eliminarRegistro(), 0 passed in C:\wamp64\www\ci\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 01:17:44 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/actualizar...')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/actualizar...')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:17:48 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/buscarRegi...')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/buscarRegi...')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:17:49 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/ingreso')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/ingreso')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:17:50 --> syntax error, unexpected '}'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 01:18:27 --> Too few arguments to function App\Controllers\Home::eliminarRegistro(), 0 passed in C:\wamp64\www\ci\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 01:31:21 --> Too few arguments to function App\Controllers\Home::eliminarRegistro(), 0 passed in C:\wamp64\www\ci\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 01:34:56 --> Too few arguments to function App\Controllers\Home::eliminarRegistro(), 0 passed in C:\wamp64\www\ci\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->eliminarRegistro()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 01:37:15 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 53
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(53): view('vIngresado', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:11:44 --> syntax error, unexpected 'mUsuarios' (T_STRING)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/ingreso')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/ingreso')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:11:44 --> syntax error, unexpected 'mUsuarios' (T_STRING)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:11:45 --> syntax error, unexpected 'mUsuarios' (T_STRING)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:06 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:06 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:07 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:47 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:48 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:48 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:14:49 --> syntax error, unexpected '}', expecting ';'
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 02:18:08 --> Call to a member function obtenerUsuario() on null
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->loging()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 02:22:36 --> Call to a member function obtenerUsuario() on null
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->loging()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 02:24:58 --> Call to a member function obtenerUsuario() on null
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->loging()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

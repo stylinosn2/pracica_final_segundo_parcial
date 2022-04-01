@@ -1,0 +1,16 @@
+*{
+  background-color: blue;
+}
+
+
+.footer{
+text-align: center;
+  grid-row: 5;
+}
+
+.footer {
+  background: #ECCE5D;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding: 8px;
+}
