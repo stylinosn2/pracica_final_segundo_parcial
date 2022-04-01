@@ -15,22 +15,21 @@
 			<thead>
 				<tr>
 					
-					<th>ID</th>
-					<th>Correo</th>
-					<th>Contraseña</th>
-					<th>Eliminar</th>
+					<th>Categoria</th>
+					<th>Monto del Gasto</th>
+					<th>Fecha</th>
+					<th>Descripcion</th>
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach($usuarios as $correo) { ?>
+				<?php foreach($usuarios as $categoria) { ?>
 				<tr>
-					<td><?php echo $correo['id_usuario']; ?></td>
-					<td><?php echo $correo['nombre']; ?></td>
-					<td><?php echo $correo['apellidos']; ?></td>
-					<td><?php echo $correo['edad']; ?></td>
-					<td><?php echo $correo['correo']; ?></td>
-					<td><?php echo $correo['contrasena']; ?></td>
-					<td><a type="button" href="<?php echo base_url(); ?>/Home/eliminarRegistro/ <?php echo $correo['id_usuario']; ?>">Eliminar</a></td>
+					<td><?php echo $categoria['id_gasto']; ?></td>
+					<td><?php echo $categoria['categoria']; ?></td>
+					<td><?php echo $categoria['monto_gasto']; ?></td>
+					<td><?php echo $categoria['fecha']; ?></td>
+					<td><?php echo $categoria['descripcion']; ?></td>
+					<td><a type="button" href="<?php echo base_url(); ?>/Home/eliminarRegistro1/ <?php echo $categoria['id_gasto']; ?>">Eliminar</a></td>
 				</tr>
 				<?php  } ?>
 			</tbody>

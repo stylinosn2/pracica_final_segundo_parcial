@@ -5,6 +5,11 @@
 	<title>Acceder</title>
 </head>
 <body>
+	<div class="text-center text-dar p-3" style="background-color: rgb(250, 235, 215);
+		font-family: sans-serif;
+		text-align: center;
+
+	">
 	<div class="container">
 		<h1>Login</h1>
 		<form method="POST" action="<?php echo base_url(); ?>/Home/Loging">
@@ -27,4 +32,5 @@
 		<a class="text-dark" href="#">Luis</a>
 	</div>
 	</footer>
+</div>
 </html>

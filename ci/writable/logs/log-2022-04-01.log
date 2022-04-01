@@ -160,3 +160,194 @@ CRITICAL - 2022-04-01 02:24:58 --> Call to a member function obtenerUsuario() on
 #2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2022-04-01 03:10:16 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/acceder')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/acceder')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:10:32 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/acceder')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/acceder')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:10:33 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/acceder')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/acceder')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:10:34 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\ci\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/bienvenida')
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/bienvenida')
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 03:14:41 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 87
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(87): view('vIngresado', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 04:40:14 --> syntax error, unexpected ''gastos'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\c...')
+#1 C:\wamp64\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mUsu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mUsu...')
+#3 C:\wamp64\www\ci\app\Controllers\Home.php(125): spl_autoload_call('App\\Models\\mUsu...')
+#4 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#5 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 04:40:43 --> syntax error, unexpected ''gastos'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\c...')
+#1 C:\wamp64\www\ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mUsu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mUsu...')
+#3 C:\wamp64\www\ci\app\Controllers\Home.php(125): spl_autoload_call('App\\Models\\mUsu...')
+#4 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#5 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-01 04:41:26 --> Cannot redeclare App\Models\mUsuarios::$table
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-01 04:43:58 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:44:19 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:46:04 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:47:21 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:48:49 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:48:53 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:53:45 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:55:10 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 04:57:58 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 05:01:12 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 05:03:37 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 05:09:31 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 05:18:05 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 05:20:27 --> Class 'App\Controllers\mUsuarios1' not found
+#0 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->insertarGastos()
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-01 05:58:47 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 175
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(175): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:00:08 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 175
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(175): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:01:30 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 175
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(175): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:03:02 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 177
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(177): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:12:16 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 178
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(178): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:20:27 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 181
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(181): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-01 06:22:02 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\ci\app\Controllers\Home.php on line 181
+#0 C:\wamp64\www\ci\app\Controllers\Home.php(181): view('vRegistroEncont...', NULL)
+#1 C:\wamp64\www\ci\system\CodeIgniter.php(825): App\Controllers\Home->buscarRegistro1()
+#2 C:\wamp64\www\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

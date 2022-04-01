@@ -12,11 +12,12 @@
 	<div class="container">
 		<h1>Registro Encontrado </h1>
 
-		<form method="POST" action="<?php echo base_url(); ?>/Home/actualizarRegistro">
-			<input type="hidden" id="id_usuario" name="id_usuario" value="<?php echo $id_usuario; ?>">	<label for="correo">Correo</label>
-			<input type="correo" name="correo" value="<?php echo $correo; ?>">
-			<label for="contrasena">Contraseña</label>
-			<input type="text" name="contrasena" value="<?php echo $contrasena; ?>">	
+		<form method="POST" action="<?php echo base_url(); ?>/Home/actualizarRegistro1">
+			<input type="hidden" id="id_gasto" name="id_gasto" value="<?php echo $id_gasto; 
+			<label for="categoria">Categoria</label>
+			<input type="categoria" name="categoria" value="<?php echo $categoria; ?>">
+			<label for="monto_gasto">Monto de Gasto</label>
+			<input type="text" name="monto_gasto" value="<?php echo $monto_gasto; ?>">	
 			
 			<button type="submit">Actualizar</button>	
 		</form>

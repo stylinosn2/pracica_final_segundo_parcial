@@ -11,12 +11,12 @@
 	">
 <body>
 	<div class="container">
-		<h1>Buscador de cuenta para actualizar y/o borrarla</h1>
-		<form method="POST" action="<?php echo base_url(); ?>/Home/ingresarForm">
-			<label for="correo">Correo</label>
-			<input  type="correo" id="correo" name="correo" placeholder="Correo"></input>
-			<label for="contrasena">Contraseña</label>
-			<input  type="contrasena" id="contrasena" name="contrasena" placeholder="contrasena"></input>
+		<h1>Buscador de gastos</h1>
+		<form method="POST" action="<?php echo base_url(); ?>/Home/ingresarForm1">
+			<label for="categoria">Categoria</label>
+			<input  type="categoria" id="categoria" name="categoria" placeholder="Categoria"></input>
+			<label for="monto_gasto">Monto del Gasto</label>
+			<input  type="monto_gasto" id="monto_gasto" name="monto_gasto" placeholder="monto_gasto"></input>
 			<button type="submit">Buscar</button>
 
 			

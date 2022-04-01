@@ -15,22 +15,22 @@
 		<table>
 			<thead>
 				<tr>
-					<th>ID</th>
-					<th>Usuario</th>
-					<th>Contraseña</th>
+				<th>ID_GASTO</th>
+					<th>Categoria</th>
+					<th>Monto del Gasto</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td><?php echo $id_usuario; ?></td>
-					<td><?php echo $correo; ?></td>
-					<td><?php echo $contrasena; ?></td>
+				<td><?php echo $id_gasto; ?></td>
+					<td><?php echo $categoria; ?></td>
+					<td><?php echo $monto_gasto; ?></td>
 				</tr>
 				
 			</tbody>
 		</table>
-		<form method="POST" action="<?php echo base_url(); ?>/Home/buscarRegistro"> 
-			<input type="hidden" name="id_usuario" value="<?php echo $id_usuario; ?>">
+		<form method="POST" action="<?php echo base_url(); ?>/Home/buscarRegistro1"> 
+			<input type="hidden" name="id_gasto" value="<?php echo $id_gasto; ?>">
 			<button type="submit">Actualizar datos</button>
 		</form>
 	</div>

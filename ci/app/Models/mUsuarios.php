@@ -6,12 +6,13 @@ class mUsuarios extends Model{
 	protected $table = 'usuarios';
 	protected $primaryKey = 'id_usuario';
 
+
 	protected $useAutoIncrement = true;
 
 	protected $returnType = 'array';
 	protected $useSoftDeletes = false;
 
-	protected $allowedFields = ['nombre','apellidos','edad', 'correo', 'contrasena'];
+	protected $allowedFields = ['nombre','apellidos','edad', 'correo', 'contrasena', 'monto_gasto', 'fecha', 'descripcion', 'categoria'];
 
 	protected $useTimestamps = false;
 	protected $createdField = 'created_at';
